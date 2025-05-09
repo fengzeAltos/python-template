@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "example_project"
+version = "0.0.1"
+dependencies = [
+    "numpy>=1.23.5",
+]
+authors = [
+  { name="Fengze", email="fengze.han@tum.de" },
+]
+description = "example_description"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/fengzeAltos/example_project"
+Repository = "https://github.com/fengzeAltos/example_project.git"
